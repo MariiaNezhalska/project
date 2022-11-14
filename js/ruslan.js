@@ -8,7 +8,7 @@ const isName = 'Maryna'; // '' - empty string is always FALSE !
 //isName
 //or if you want to check on false condition you should write !isAge
 // !isAge will be equal to isAge === false
-if ((!isAge || isName) || (boolean || nullCustom || !undefinedCustom)) {
+if (!isAge || isName || boolean || nullCustom || !undefinedCustom) {
 	console.log('TRUE');
 } else {
 	console.log('FALSE');
